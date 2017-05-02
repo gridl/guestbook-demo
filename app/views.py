@@ -30,7 +30,7 @@ elif 'POSTGRESQL_PORT_5432_TCP_ADDR' in os.environ:
     dbname=os.environ.get('POSTGRESQL_DATABASE')
 
 else:
-    host="pgwrite.patroni.svc.dbapps.cluster.local"
+    host="pgwrite"
     port="5432"
     username="postgres"
     password="atomic"
